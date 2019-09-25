@@ -38,10 +38,10 @@ public class ReportController {
 	private ApplicationContext applicationContext;
 
 	@ApiOperation(value = "Returns pdf report of assurance for student", notes = "To download pdf document from browser go to defined url: http://localhost:8081/assurancePdf/{studentId}")
-	@GetMapping(value = "/assurancePdf/{studentId}", produces = MediaType.APPLICATION_PDF_VALUE)
-	public void getStudentsPdf(@PathVariable Integer id, HttpServletResponse response) {
+	@GetMapping( "/assurancePdf/{studentId}")
+	public void getStudentsPdf(@PathVariable Integer studentId, HttpServletResponse response) {
 		try {
-			Optional<Student> student = studentRepository.findById(id);
+			Optional<Student> student = studentRepository.findById(studentId);
 			Student s = student.get();
 			List<Student> listaStudenata = new ArrayList<Student>();
 			listaStudenata.add(s);
