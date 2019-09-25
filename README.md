@@ -1,6 +1,6 @@
 # University
 
-## Spring boot + PostgreSQL
+## Spring boot + PostgreSQL [(live demo)](https://majajovanovic.herokuapp.com/swagger-ui.html)
 
 For the purposes of the backend part of the application, a relational database that was created containing four tables.
 Database schema is shown in the following picture.
