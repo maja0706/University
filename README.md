@@ -23,4 +23,10 @@ certificate of study for a particular student. The reports can be generated as p
 
 ### Example of report for students for defined department
 
-![StudentsPDF](https://user-images.githubusercontent.com/33513994/65603139-6c3c4d80-dfa5-11e9-9eec-f31bc434f223.png)
+![StudentsPDF](https://user-images.githubusercontent.com/33513994/65603139-6c3c4d80-dfa5-11e9-9eec-f31bc434f223.png)  
+
+## Directions for further development
+In progress:  
+
+- Unit and integration tests  
+- Angular frontend
